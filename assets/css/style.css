@@ -1531,7 +1531,7 @@ body.active { overflow: hidden; }
 
   .about .container { gap: 120px; }
 
-  .about .shape-1 { width: max-content; }
+  .about { width: max-content; }
 
   .about .section-title { margin-block-end: 70px; }
 
