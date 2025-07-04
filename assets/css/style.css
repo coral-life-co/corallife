@@ -471,8 +471,13 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  padding-block-start: 120px;
+  padding-block-start: 150px;
+  background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFhbzE5NGd3aG8wbXlocmx0YWl2ZnRxNGNvcTU2bHd6anR5bm5hcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VR4GWP74eHdVIj0c1D/giphy.gif') center center/cover no-repeat;
+  position: relative;
+  z-index: 0;
   text-align: center;
+  transition: 0.5s var(--cubic-in);
+  color: white;
 }
 
 .hero-banner {
@@ -1666,7 +1671,7 @@ body.active { overflow: hidden; }
 
   .hero .container { max-width: 1500px; }
 
-  .hero-content { margin-inline-end: 400px; }
+  /* .hero-content { margin-inline-end: 400px; } */
 
   .hero .wrapper { --fs-2: 13rem; }
 
